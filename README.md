@@ -1,4 +1,5 @@
 This repository contains a reproducer for NVIDIA bug 4216808.
+The problem is fixed in an upcoming CUDA 12.4 version.
 
 ## Description
 
@@ -56,4 +57,4 @@ Minor changes to the test (for example, removing the SFINAE condition on the the
 
 ## Details
 
-Tested on Ubuntu 22.04 and RHEL 8.7, with CUDA 11.5, 11.8, 12.1, 12.2 with GCC 11.3 and 12.1 (where supported).
+Tested on Ubuntu 22.04 and RHEL 8.7, with CUDA 11.5, 11.8, 12.1, 12.2 and 12.3, with GCC 11.x and 12.x (where supported).
